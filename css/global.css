@@ -1,7 +1,8 @@
 body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
-  color: #141414;
+  color: #fff;
+  background: #040405;
 }
 
 h1,
@@ -28,7 +29,8 @@ img {
   line-height: 1;
   text-transform: uppercase;
   word-break: break-all;
-  max-width: 4ch;
+  max-width: 4 ch;
+  color: #fff !important;
 }
 
 @media (max-width: 800px) {

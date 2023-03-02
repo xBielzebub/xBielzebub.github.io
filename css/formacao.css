@@ -1,5 +1,4 @@
 .formacao {
-  background: #141414;
   color: #fff;
 }
 
@@ -10,6 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
+  border-bottom: #141414 solid 0.2px;
   position: relative;
 }
 
@@ -50,7 +50,7 @@
 
 .faculdade {
   flex: 1;
-  background: #000;
+  background: #141414;
   padding: 20px;
   border-radius: 4px;
   display: flex;
@@ -77,7 +77,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: linear-gradient(#b629f8, #800add);
   position: absolute;
   left: -24px;
 }
