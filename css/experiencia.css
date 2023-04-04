@@ -6,6 +6,7 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   border-bottom: #141414 solid 0.2px;
+  align-items: start;
 }
 
 .projetos .subtitulo {
@@ -24,9 +25,30 @@
   color: #fff;
 }
 
+.projetos picture {
+  grid-row: 2;
+}
+.projetos .conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  grid-row: 2;
+}
+
+.projetos .conteudo ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projetos a img {
+  border-radius: 4px;
+}
+
 .empresa {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
   gap: 10px 20px;
   padding: 20px;
   background: #141414;
@@ -107,6 +129,8 @@
 
 @media (max-width: 400px) {
   .empresa {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
