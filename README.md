@@ -1,2 +1,2 @@
 # xBielzebub.github.io
-<a href="xbielzebub.github.io">acesse o site</a>
+<a href="http://gabrielcode.me" target="blank">acesse o site</a>
