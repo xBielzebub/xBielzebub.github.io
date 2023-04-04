@@ -1,2 +1,2 @@
 # xBielzebub.github.io
-<a href="http://gabrielcode.me" target="_blank">acesse meu portifólio</a>
+<p>Pequeno projeto de portifólio desenvolvido durante o curso de HTML e CSS para Iniciantes da <a href="https://www.origamid.com">Origamid</a></p>
