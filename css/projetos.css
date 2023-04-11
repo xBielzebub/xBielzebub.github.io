@@ -57,3 +57,10 @@
     display: none;
   }
 }
+
+@media (max-width: 1150px) {
+  .projetos p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
