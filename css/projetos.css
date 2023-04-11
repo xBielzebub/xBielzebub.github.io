@@ -1,0 +1,59 @@
+.projetos {
+  margin-top: 80px;
+}
+
+.projetos h2 {
+  font-size: 2rem;
+  color: #9c6137;
+}
+
+.projetos p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.card-projeto {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 20px;
+  gap: 40px;
+  margin-top: 40px;
+  border-radius: 5px;
+  height: 400px;
+  color: #9c6137;
+  background: #fff4c2;
+}
+
+.card-projeto h3 {
+  font-size: 1.75rem;
+}
+
+.card-projeto h4 {
+  margin-top: 40px;
+  font-size: 1.25rem;
+}
+
+.tecnologias-projeto {
+  display: flex;
+  align-items: center;
+}
+
+.projetos-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.projetos-links a:hover {
+  color: #dfad7c;
+}
+
+@media (max-width: 1150px) {
+  .card-projeto {
+    grid-template-columns: 1fr;
+  }
+  .card-projeto img {
+    display: none;
+  }
+}

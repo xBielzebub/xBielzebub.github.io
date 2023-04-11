@@ -3,121 +3,99 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <title>Gabriel Henrik - Desenvolvedor e Designer</title>
-  <meta name="description" content="Desenvolvedor Front End e UX/UI Designer, Localizado em São Paulo">
-  <link rel="icon" href="./favicon-pp.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-  <header class="header">
-    <div class="header-container">
-      <img src="./img/logo-gh.svg" alt="" width="260" height="40">
-      <nav>
-        <ul class="header-menu">
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#formacao">Formação</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header class="container">
+    <picture>
+      <img src="./img/logonew.svg" alt="gabriel henrik" width="320">
+    </picture>
+    <nav>
+      <ul>
+        <li><a href="#inicio">início</a></li>
+        <li><a href="#sobre">sobre</a></li>
+        <li><a href="#projetos">projetos</a></li>
+        <li><a href="#contato">contato</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main class="introducao">
-    <img src="./img/perfil-port.png" alt="gabriel henrik" width="360" height="520">
-    <div>
-      <h1>Desenvolvedor <br> Front End & <br> UX/UI Designer</h1>
-      <p>Localizado em São Paulo</p>
-    </div>
+  <main class="container" id="inicio">
+    <img src="./img/pfpnew.png" alt="">
+    <div class="inicio-conteudo">
+      <h1>Desenvolvedor <br>
+        Front-End & <br>
+        UX/UI Designer</h1>
 
+      <ul class="social-links">
+        <li><a href="https://github.com/xBielzebub" target="_blank"><img src="./img/github-icon.svg" alt=""></a></li>
+        <li><a href="https://linkedin.com/in/gabrielhenrik294015150" target="_blank"><img src="./img/linkedin-icon.svg" alt=""></a></li>
+        <li><a href="" class="btn">Currículo</a></li>
+      </ul>
+    </div>
   </main>
 
-  <section class="projetos" id="projetos" aria-label="projetos">
-    <h2 class="subtitulo">projetos</h2>
-    <div>
-      <p class="projetos-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Trabalho tanto no código quanto no <strong>UX</strong> e <strong>UI Design</strong> do projeto.</p>
+  <section class="sobre container" id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou Gabriel Henrik, um desenvolvedor web com formação em Desenvolvimento Web pela ETEC Maria Cristina Medeiros e bacharel em Ciência e Tecnologia e Ciência da Computação pela Universidade Federal do ABC. Tenho experiência em HTML, CSS, Sass, JavaScript, TypeScript e ReactJS. <br> <br> Se você procura um desenvolvedor habilidoso e criativo para se juntar à sua equipe, estou disponível para trabalhar em projetos desafiadores e inovadores. Entre em contato comigo para discutir como podemos transformar suas ideias em realidade através da tecnologia.</p>
+    <h2>Tecnologias</h2>
+    <ul>
+      <li><img src="./img/skills/htmlicon.svg" alt="" width="52" height="52"></li>
+      <li><img src="./img/skills/htmlicon.svg" alt="" width="52" height="52"></li>
+      <li><img src="./img/skills/jsicon.svg" alt="" width="52" height="52"></li>
+      <li><img src="./img/skills/tsicon.svg" alt="" width="52" height="52"></li>
+      <li><img src="./img/skills/reacticon.svg" alt="" width="52" height="52"></li>
+      <li><img src="./img/skills/sassicon.svg" alt="" width="52" height="52"></li>
+      <li><img src="./img/skills/giticon.svg" alt="" width="52" height="52"></li>
+      <li><img src="./img/skills/jqueryicon.svg" alt="" width="52" height="52"></li>
+    </ul>
+  </section>
 
-      <div class="empresa">
-        <h3 class="empresa-titulo">Bikcraft</h3>
-        <picture>
-          <img src="./img/thumbs/bikcraft-thumb.jpg" alt="">
-        </picture>
-
-        <div class="conteudo-projetos">
-          <p>Desenvolvi o projeto Bikcraft desde o wireframe até a codificação, durante os cursos de UI Design e HTML & CSS na Origamid. O foco sempre foi garantir um site responsivo e acessível para todos!</p>
-          <ul>
-            <li><a href="./projetos/bikcraft/index.html" target="_blank">Acesse o projeto</a></li>
-            <li><a href="https://github.com/xBielzebub/bikcraft.git" target="_blank">Acesse o repositório</a></li>
-          </ul>
+  <section class="projetos container" id="projetos">
+    <h2>- Projetos</h2>
+    <div class="card-projeto">
+      <div class="projeto-conteudo">
+        <h3>bikcraft</h3>
+        <br>
+        <p>Desenvolvi o projeto Bikcraft desde o wireframe até a codificação, durante os cursos de UI Design e HTML & CSS na Origamid. O foco sempre foi garantir um site responsivo e acessível para todos.</p>
+        <h4>tecnologias</h4>
+        <br>
+        <div class="tecnologias-projeto">
+          <span><img src="./img/skills/htmlicon.svg" alt=""></span>
+          <span><img src="./img/skills/cssicon.svg" alt=""></span>
+          <span><img src="./img/skills/jsicon.svg" alt=""></span>
+        </div>
+        <div class="projetos-links">
+          <a href="https://github.com/xBielzebub/bikcraft" target="_blank">Acesse o código</a>
+          <a href="https://bikcraft-chi.vercel.app" target="_blank">Acesse o projeto</a>
         </div>
       </div>
-
+      <picture>
+        <img src="./img/thumb-projetos/bikcraft.jpg" alt="">
+      </picture>
     </div>
   </section>
 
-  <section class="formacao" id="formacao" aria-label="Formação">
-    <div class="formacao-container">
-      <h2 class="subtitulo">Formação</h2>
-
-      <div>
-        <p class="formacao-texto">Minha mais recente <strong>experiência acadêmica</strong> é o <strong>Bacharelado Interdisciplinar em Ciência</strong> e <strong>Tecnologia</strong> pela <strong>Universidade Federal do ABC</strong>. Além disso me mantenho sempre atualizado com cursos intensivos online. </p>
-
-        <ul class="faculdade-lista">
-          <li class="faculdade">
-            <span class="faculdade-tipo">Bacharel</span>
-            <h3 class="faculdade-curso">Ciência da computação</h3>
-            <span class="faculdade-instituicao">UFABC</span>
-          </li>
-
-          <li class="faculdade">
-            <span class="faculdade-tipo">Bacharel</span>
-            <h3 class="faculdade-curso">Bacharelado em Ciência e Tecnologia</h3>
-            <span class="faculdade-instituicao">UFABC</span>
-          </li>
-
-          <li class="faculdade">
-            <span class="faculdade-tipo">Curso Técnico</span>
-            <h3 class="faculdade-curso">Desenvolvimento Web</h3>
-            <span class="faculdade-instituicao">ETEC MCM</span>
-          </li>
+  <footer class="footer-bg" id="contato">
+    <div class="footer container">
+      <img src="./img/logonew-white.png" alt="" width="320">
+      <div class="footer-contato">
+        <h3>Contato</h3>
+        <ul>
+          <li><a href="tel:+5511945615570">+55 11 94561-5570</a></li>
+          <li><a href="mailto:gabrielhenrik.nunes@gmail.com">gabrielhenrik.nunes@gmail.com</a></li>
+          <li>Ribeirão Pires - SP</li>
         </ul>
-        <div class="formacao-extra">
-          <div class="cursos">
-            <h3>Cursos Intensivos</h3>
-            <ul>
-              <li>UX Design e UI Design <span>56h</span></li>
-              <li>Front End para Iniciantes <span>72h</span></li>
-            </ul>
-          </div>
-
-          <div class="idiomas">
-            <h3>Idiomas</h3>
-            <ul>
-              <li>Inglês <span>/ Avançado</span></li>
-            </ul>
-          </div>
-        </div>
       </div>
-    </div>
-  </section>
 
-  <footer class="footer" id="contato">
-    <div class="footer-container">
-      <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
-      <ul class="footer-contato">
-        <li>gabrielhenrik.nunes@gmail.com</li>
-        <li>+55 11 94561-5570</li>
-        <li><a href="https://www.instagram.com/bielzebub.exe/ " target=”_blank”>@bielzebub.exe</a></li>
-      </ul>
-      <p class="footer-copy">Gabriel Henrik. Alguns direitos reservados.</p>
+      <p class="footer-copy font-2-m cor-6">Gabriel Henrik © Alguns direitos reservados.</p>
     </div>
   </footer>
-
 </body>
 
 </html>

@@ -1,0 +1,37 @@
+@import url(./reset.css);
+@import url(./utilidades.css);
+@import url(./sobre.css);
+@import url(./projetos.css);
+@import url(./inicio.css);
+@import url(./footer.css);
+
+body {
+  font-family: "fira code";
+  font-weight: bold;
+  color: #9c6137;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container:nth-child(n + 2) {
+  margin-top: 120px;
+}
+
+img {
+  border-radius: 4px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+nav ul {
+  font-size: 1.25rem;
+  display: flex;
+  gap: 24px;
+}
