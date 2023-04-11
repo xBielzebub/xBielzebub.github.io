@@ -6,7 +6,7 @@
 @import url(./footer.css);
 
 body {
-  font-family: "fira code";
+  font-family: "Fira Code", monospace;
   font-weight: bold;
   color: #9c6137;
 }
