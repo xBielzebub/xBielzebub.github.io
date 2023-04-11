@@ -53,7 +53,7 @@
   .card-projeto {
     grid-template-columns: 1fr;
   }
-  .card-projeto img {
+  .card-projeto picture img {
     display: none;
   }
 }
