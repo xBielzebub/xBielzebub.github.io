@@ -21,7 +21,7 @@
   border-radius: 5px;
   height: 400px;
   color: #9c6137;
-  background: #fff4c2;
+  background-color: #fff4c2;
 }
 
 .card-projeto h3 {
@@ -52,15 +52,16 @@
 @media (max-width: 1150px) {
   .card-projeto {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
   .card-projeto picture img {
     display: none;
   }
-}
-
-@media (max-width: 1150px) {
   .projetos p {
     font-size: 1rem;
     line-height: 1.5;
+  }
+  .tecnologias-projeto img {
+    width: 75%;
   }
 }
